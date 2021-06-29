@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Building table for Star Wars Characters
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was deployed using surge. Here is url [sw-react-pumper](http://sw-react-pumper.surge.sh/).
+
+# Features
+  - Sorting table by name
+  - Searching characters by name
+  - Paginating with 10 per page
+  - Liking characters
+  - Showing favorite characters on the table
+# Tech stack
+  - Typescript, React.js, Styled-components, Apollo Client 3, SWAPI GraphQL Wrapper
+  - Material UI, React testing library, Jest, loadsh, 
+
 
 ## Available Scripts
 
