@@ -19,7 +19,7 @@ interface ITableHeaderRowProps {
 
 const TableHeaderRow: React.FC<ITableHeaderRowProps> = ({ isAscending, data, handleSortName }) => {
   return (
-    <TableHRWrapper>
+    <TableHRWrapper data-testId="Table-HR-Wrapper">
       {data.map((item, index) => (
         <th key={index} onClick={() => handleSortName?.(item)}>
           {item}
